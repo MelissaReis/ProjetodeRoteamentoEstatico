@@ -4,7 +4,7 @@ hostname SW-01
 banner motd "ACESSO AUTORIZADO APENAS PARA O DEPARTAMENTO DE TI!"
 enable secret SenhadaEnable
 ip domain-name rede1.local
-username Melissareis privilege 15 secret SenhaAdmin
+username administrador privilege 15 secret SenhaAdmin
 username estagiario privilege 1 secret SenhaEst
 crypto key generate rsa general-keys modulus 1024
 line console 0
@@ -33,7 +33,7 @@ hostname SW-02
 banner motd "ACESSO AUTORIZADO APENAS PARA O DEPARTAMENTO DE TI!"
 enable secret SenhadaEnable
 ip domain-name rede2.local
-username Melissareis privilege 15 secret SenhaAdmin
+username administrador privilege 15 secret SenhaAdmin
 username estagiario privilege 1 secret SenhaEst
 crypto key generate rsa general-keys modulus 1024
 line console 0
@@ -62,7 +62,7 @@ hostname SW-03
 banner motd "ACESSO AUTORIZADO APENAS PARA O DEPARTAMENTO DE TI!"
 enable secret SenhadaEnable
 ip domain-name rede3.local
-username Melissareis privilege 15 secret SenhaAdmin
+username administrador privilege 15 secret SenhaAdmin
 username estagiario privilege 1 secret SenhaEst
 crypto key generate rsa general-keys modulus 1024
 line console 0
@@ -91,7 +91,7 @@ hostname SW-04
 banner motd "ACESSO AUTORIZADO APENAS PARA O DEPARTAMENTO DE TI!"
 enable secret SenhadaEnable
 ip domain-name rede4.local
-username Melissareis privilege 15 secret SenhaAdmin
+username administrador privilege 15 secret SenhaAdmin
 username estagiario privilege 1 secret SenhaEst
 crypto key generate rsa general-keys modulus 1024
 line console 0
